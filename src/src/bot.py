@@ -23,7 +23,7 @@ logger = logging.getLogger("telegram_bot")
 load_dotenv()
 
 # Get environment variables
-TELEGRAM_BOT_TOKEN = os.getenv('TELEGRAM_BOT_TOKEN')
+TELEGRAM_BOT_TOKEN = os.getenv('7918249681:AAHxvBqeMDMxJtPa1jcxyJcS9AKUy0czgyM')
 CHECK_INTERVAL = int(os.getenv('CHECK_INTERVAL', '900'))  # Default: 15 minutes
 EOD_REPORT_TIME = os.getenv('EOD_REPORT_TIME', '16:00')  # Default: 4:00 PM
 
